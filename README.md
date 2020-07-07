@@ -5,7 +5,7 @@ This is the 1st project as part of Udacity Frontend Nanodegree 2020. It is about
 This project required to utilize HTML and CSS skills to build out a personal blog website, including custom images, layout, and styling. Along with webpage design considerations, and appropriately structure files, as well as use proper CSS and HTML formatting & style.
 
 # Project Files
-In this project, developed is done from scratch! To complete the project, I was required to decide on the HTML and CSS files to include as part of my work, given that the end result is within the confines of the project rubric provided. This should include, at minimum, HTML files related to:
+In this project, development is done from scratch! To complete the project, I was required to decide on the HTML and CSS files to include as part of my work, given that the end result is within the confines of the project rubric provided. This should include, at minimum, HTML files related to:
 
 - the blog website
 - a blog post
