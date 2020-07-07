@@ -17,6 +17,11 @@ In this project, development is done from scratch! To complete the project, I wa
 - HTML is developed with proper semantics such as article, header, main, section, aside etc.
 - Media queries for responsive web design
 
+# Live Link
+This project is currently live on github pages.
+
+URL: http://dilipagheda.com/blog-template/home/home.html
+
 # Project Rubric
 
 - Portfolio completely separates structure from design/style.
