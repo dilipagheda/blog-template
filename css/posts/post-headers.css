@@ -1,0 +1,51 @@
+/* mobile */
+@media only screen and (min-width : 320px) {
+    article h1 span {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+}
+
+
+/* tablet */
+@media only screen and (min-width : 768px) {
+    article h1 span {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+}
+
+
+/* desktop */
+@media only screen and (min-width : 1224px) {
+    article h1 span {
+        border-bottom: 3px solid #222e56;
+        padding-bottom: 5px;
+    }
+}
+
+
+/*all other*/
+article h1 {
+    font-size: 32px;
+    margin: 20px 0;
+    color: #222e56;
+    font-weight: bold;
+}
+
+
+article h2 {
+    color: white;
+    background-color: #222e56;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+article h3 {
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: #222e56;
+    font-weight: bold;
+}
