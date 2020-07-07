@@ -1,0 +1,83 @@
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    justify-content: space-between;
+}
+
+
+.blog-card .header-content {
+    margin-top: 30px;
+}
+
+
+.blog-card .header-content,
+.blog-card .blog-excerpt {
+    padding: 10px;
+}
+
+
+.blog-card .header-content h1.title {
+    font-size: 20px;
+}
+
+
+.blog-card .header-content .author {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.blog-card .header-image {
+    position: relative;
+}
+
+
+.blog-card .header-image .author-thumbnail {
+    position: absolute;
+    bottom: -20px;
+    left: 16px;
+    height: 70px;
+    width: 70px;
+}
+
+
+.blog-card .header-image .author-thumbnail img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.blog-card .header-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+
+
+.blog-card p.blog-excerpt {
+    font-weight: 300;
+}
+
+
+.blog-card button {
+    padding: 10px;
+    align-self: flex-end;
+    margin: 10px;
+    background-color: #222e56;
+    border-radius: 5px;
+}
+
+
+.blog-card button:hover {
+    cursor: pointer;
+}
+
+
+.blog-card button a {
+    text-decoration: none;
+    color: white;
+}

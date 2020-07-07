@@ -1,0 +1,32 @@
+/* mobile */
+@media only screen and (min-width : 320px) {
+    .blog-items-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px 20px;
+        padding: 10px;
+    }
+}
+
+
+/* tablet */
+@media only screen and (min-width : 768px) {
+    .blog-items-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px 40px;
+        padding: 10px;
+    }
+}
+
+
+/* desktop */
+@media only screen and (min-width : 1224px) {
+    .blog-items-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 40px 40px;
+        max-width: 1200px;
+        margin: 50px auto;
+    }
+}
