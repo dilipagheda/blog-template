@@ -1,0 +1,166 @@
+/* mobile */
+@media only screen and (min-width : 320px) {
+    .common-footer .footer-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    
+    .common-footer {
+        background-color: #222e56;
+        color: #d6b69c;
+        padding: 20px;
+    }
+
+    
+    .common-footer .contact-info header {
+        padding: 0;
+    }
+
+    
+    .common-footer .subscribe-form h1 {
+        margin-top: 10px;
+    }
+
+    
+    .common-footer .contact-info address .address-item {
+        display: grid;
+        grid-template-columns: 10% 90%;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+    }
+}
+
+
+/* tablet */
+@media only screen and (min-width : 768px) {
+    .common-footer .footer-container {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 200px 1fr 200px;
+    }
+
+    
+    .common-footer {
+        background-color: #222E56;
+        color: #d6b69c;
+        padding: 50px 100px;
+    }
+
+    
+    .common-footer .contact-info header {
+        padding-left: 12px;
+    }
+
+    
+    .common-footer .subscribe-form h1 {
+        margin-top: 0px;
+    }
+
+    
+    .common-footer .contact-info address .address-item {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+    }
+}
+
+
+/* desktop */
+@media only screen and (min-width : 1224px) {
+    .common-footer .footer-container {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 200px 1fr 200px;
+    }
+
+    
+    .common-footer {
+        background-color: #222e56;
+        color: #d6b69c;
+        padding: 50px 100px;
+    }
+
+    
+    .common-footer .contact-info header {
+        padding-left: 12px;
+    }
+
+    
+    .common-footer .subscribe-form h1 {
+        margin-top: 0px;
+    }
+
+    
+    .common-footer .contact-info address .address-item {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+    }
+}
+
+
+/*all other*/
+.common-footer h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.common-footer .contact-info address {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.common-footer .contact-info address .address-item .icon {
+    padding: 0 10px;
+    text-align: center;
+}
+
+
+.common-footer .contact-info address .address-item .icon i {
+    font-size: 16px;
+}
+
+
+.common-footer .contact-info address .email a {
+    color: white;
+    text-decoration: none;
+    color: #d6b69c;
+    font-weight: 300;
+}
+
+
+.common-footer .subscribe-form {
+    width: 100%;
+}
+
+
+.common-footer .subscribe-form p {
+    font-size: 16px;
+    color: #d6b69c;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+
+.common-footer .subscribe-form input[name="email"] {
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+.common-footer .subscribe-form input[type="submit"] {
+    background-color: #f0151f;
+    color: #fffbf1; /*shade of white*/
+    padding: 10px;
+    width: 100%;
+}

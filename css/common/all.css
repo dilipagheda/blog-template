@@ -1,0 +1,44 @@
+/*All other styles*/
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+blockquote {
+    border-left: 5px solid #222e56;
+    padding: 10px;
+    margin: 10px;
+    font-style: italic;
+    color: black;
+}
+
+
+    blockquote:before {
+        display: block;
+        height: 0;
+        content: "“";
+        margin-left: -.95em;
+        font: italic 400%/1 Cochin,Georgia,"Times New Roman", serif;
+        color: #999;
+    }
+
+
+.bold {
+    font-weight: bold;
+}
+
+
+.italic {
+    font-style: italic;
+}
+
+
+.underline {
+    text-decoration: underline;
+}
+
+figcaption {
+    font: italic normal 300 12px/1 Roboto, serif;
+}
